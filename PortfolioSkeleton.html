@@ -1,0 +1,207 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+<style type="text/css">
+  
+/**
+ * Media Query Style Exercise: Solved;
+ **/
+* {
+  box-sizing: border-box;
+}
+/*
+  The background color will be #ccc
+  at browser widths above 768px
+*/
+body {
+  /* Typography */
+  font-size: 18px;
+  line-height: 27px;
+  /* Visual */
+  background-color: #ccc;
+}
+/*
+  The width of the wrapper will be 1024px
+  at browser widths above 768px
+*/
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+  /* Positioning */
+  margin: 40px auto;
+}
+#main-content,
+#sidebar {
+  /* Box-model */
+  width: 500px;
+  padding: 30px;
+}
+#main-content {
+  /* Positioning */
+  float: left;
+  /* Visual */
+  background: #fff;
+}
+#sidebar {
+  /* Positioning */
+  float: right;
+  /* Visual */
+  background: #eee;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+/* Additional Screen Sizes */
+/* Width at 320px and below */
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #333;
+  }
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+/* Width at 168px and below */
+@media screen and (max-width: 168px) {
+  body {
+    background-color: #333;
+  }
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+
+body 
+  {
+  background-color:ffffff;
+  background-position:top left;
+  background-attachment:fixed;
+  }
+
+
+
+table, tr, td 
+  {
+  background:transparent; border:0px;
+  }
+
+table table   
+  {
+  border:0px;
+  }
+
+table table table table 
+  {
+  border:0px;
+  }
+
+table table table {background-color:4aaaa5;}
+
+</style>
+</head>
+<body>
+  <header id="masthead">
+
+    <div class="container">
+      <a href="index.html" id="logo">Daniel Tannehill</a>
+      
+      <nav><table align="right" 
+  border="1" 
+  bordercolor="#000000" 
+  style="background-color:#0099cc"
+  width="400" 
+  cellpadding="3" 
+  cellspacing="3">
+        <tr > 
+  <td><a href="#">ABOUT</a></td>
+    <td><a href="#">PORTFOLIO</a></td>
+    <td><a href="#"> CONTACT</a></td>
+  </tr>
+
+</table>
+      </nav>
+    </div>
+  </header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+        <h3>Rock Paper Scissors</h3>
+      </div>
+    </section>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Tannehill
+    </div>
+  </footer>
+</body>
+</html>
