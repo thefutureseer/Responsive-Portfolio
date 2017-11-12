@@ -1,0 +1,367 @@
+<!doctype html>
+
+
+<html lang="en-us">
+  <head>
+<!-- <link rel="stylesheet" href="cssResetFile.css"> -->
+
+   <meta charset="UTTF-8">
+  
+   <title>Daniel Tannehill First Bio</title>
+
+
+      <style>
+
+          table {
+              border-collapse: collapse;
+              width: 30%;
+              height: 100px;
+          }
+
+          th, td {
+              text-align: center;
+              padding: 8px;
+          }
+
+          th {
+              background-color:#4aaaa5;
+              color: white;
+              font-size: 35px;
+          }
+
+          #me {
+                background-color:white;
+                float: left;
+              }
+
+           #abtme {
+              	text-align: left;
+              	font-size: 25px;
+              	color: #4aaaa5;
+              }
+
+          #pic {
+                float: left;
+          }
+       
+          #sun {
+            background-color:white;
+            float: right;
+          }
+        /*  #footr {
+            align: center;
+          } */
+        
+          #aln {
+            text-align: center;
+            clear: right;
+            font-size: 25px;
+            color: #4aaaa5;
+          }
+         
+          #txtrt {
+          	font-size: 22px;
+            clear: bottom;
+            }
+
+         #riht {
+            float: right;
+            font-size: 25px;
+          }
+
+              ul {
+              list-style-type: none;
+              margin: 30;
+              padding: 30;
+              overflow: hidden;
+              background-color: white;
+          }
+
+          li {
+              float: left;
+          }
+
+          li a {
+              display: block;
+              color: #dddddd;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+          }
+
+          /* Change the link color to #111 (black) on hover */
+          li a:hover {
+              background-color: #111;
+}
+
+
+              /*social buttons*/
+
+body{
+    padding: 50px;
+}
+
+
+
+
+.icon-circle .fa{
+
+    font-size           : 12px;
+    color               : #e84700;
+    margin              : auto;
+    height              : 40px;
+    width               : 40px;
+    border-radius       : 25%;
+    border              :2px solid #e84700;
+    line-height         : 40px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 40px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+
+ .icon-circle .fa{
+    font-size           : 10px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 30px;
+    width               : 30px;
+    border-radius       : 40%;
+    border              :2px solid #e84700;
+    line-height         : 200px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+
+    margin-left         : 0px;
+    font-size           : 20px;
+}   
+}
+
+.ifacebook .fa{
+    color               :#3B5998;
+    border              :2px solid #3B5998;
+}
+
+.ifacebook .fa:hover{
+    
+    background-color        : #3B5998;    
+    color                   : #fff;
+    border                  : 1px solid #3B5998;
+
+}
+
+.itwittter .fa{
+    color               : #33ccff;
+    border              :2px solid #33ccff;
+}
+
+.itwittter .fa:hover{
+    
+    background-color        : #33ccff;    
+    color                   : #fff;
+    border                  : 1px solid #33ccff;
+
+}
+
+.igoogle .fa{
+    color               : #BD3518;
+    border              :2px solid #BD3518;
+}
+
+.igoogle .fa:hover{
+    
+    background-color        : #BD3518;    
+    color                   : #fff;
+    border                  : 1px solid #BD3518;
+
+}
+
+.iLinkedin .fa{
+    color               : #007bb7;
+    border              :2px solid #007bb7;
+}
+
+.iLinkedin .fa:hover{
+    
+    background-color        :#007bb7;    
+    color                   : #fff;
+    border                  : 1px solid #007bb7;
+
+}
+
+
+
+        </style>
+
+  </head>
+
+<!--
+<h1>
+			<marquee behavior="slide" direction="left">Coming Soon to a high tech machine near you!!</marquee>
+		</h1>
+-->
+
+
+  <body>
+
+    <div style="background-color: #dddddd">
+    </div>
+
+        <nav id= "riht" >
+          <ul >
+            <li><a href="default.asp">About</a></li>
+            <li><a href="contact.asp">Portfolio</a></li>
+            <li><a href="about.asp">Contact</a></li>
+          </ul>
+        </nav>	
+
+        <table>
+         <th> Daniel Tannehill</th>
+        </table>
+
+          
+
+
+       
+          <br>
+
+
+   <div style="background-color: #dddddd;">
+ <hr>    
+
+
+        <div id="me" style="width: 650px; height: 550px; margin:50px; position: absolute;">
+          <p id='abtme'><STRONG> ABOUT ME</STRONG></p>
+          <hr>
+          <img id="pic" src="http://ucb.bootcampcontent.com/uploads/user/avatar/544/avatar.png" alt="Daniel Tannehill">  
+          <p id="txtrt" >I became interested in writing code due to my customers while driving  my own SideCar and UberX but especially when I upgraded to UberBlack while driving those customers boss's and the customers who stepped up their game as well as me. I told my cousin about it and said "If you do it and it works then I'll do it". Hes finished with the bootcamp, gainfully employed and now I'm here.
+          </p>
+        </div>
+
+        <div  id="sun"  class="sat" style=" width: 500px; height: 280px; margin:50px;" >
+          <p id="aln" >Connect</p> <hr>
+          
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+
+
+<div class="container-absolute">
+   
+    <div class="row" align="center">
+      
+    <div class="sicon">
+
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="ifacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+        </div>
+      </div>
+     
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="itwittter" title="Twitter"><i class="fa fa-twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="  text-center">
+        <div class="icon-circle">
+          <a href="#" class="igoogle" title="Google+"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+      
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="iLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        
+
+
+   
+               
+
+        </div>
+
+
+
+
+
+
+   
+ 
+   
+          <footer style="clear:both; 
+    position: relative;
+    height: 3em;
+    margin: 5em blue; border-top: 10em; padding-top: 25em; width: 760px; 
+    height: 50px"; style= "clear: both">  
+  </div>  
+  <p style="text-align:center;">Copyright 2017 Tannehill</p></footer> 
+
+
+
+  
+  </body>
+
+    
+
+      
+	
+</html>
