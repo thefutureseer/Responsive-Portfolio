@@ -1,0 +1,448 @@
+
+<!docktype html>
+<html>
+
+<body>
+
+<head>
+
+<style type="text/css">
+
+	table {
+    border-width: 4px ;
+    border-color: #dddddd ;
+    width: 30% ;
+    height: 100px ;
+} 
+
+/* "NavBAr" */
+
+
+      table {
+              border-collapse: collapse;
+              width: 30%;
+              height: 100px;
+          }
+
+          th, td {
+              text-align: center;
+              padding: 8px;
+          }
+
+          th {
+              background-color:#4aaaa5;
+              color: white;
+              font-size: 35px;
+          }
+         #riht {
+            float: right;
+            font-size: 25px;
+          }
+
+              ul {
+              list-style-type: none;
+              margin: 30;
+              padding: 30;
+              overflow: hidden;
+              background-color: white;
+          }
+
+          li {
+              float: left;
+          }
+
+          li a {
+              display: block;
+              color: #dddddd;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+          }
+      
+li a:hover {
+    background-color: #111;
+}
+  /*      #tue {
+	width: 1200px;
+	 height: 1000px
+background-color:#333;
+*/
+
+/*  (* is for everything) */
+        p :hover{
+        background-color: red;
+        }
+        a: hover{
+         background-color: red;        
+        }
+        button:hover{
+        background-color:red;
+      }
+      input:hover{
+      background-color:red;
+    }
+
+  y:active{
+    background-color:blue;
+  }
+    y:focus{
+    background-color: yellow;
+    border:none;
+  } 
+
+
+
+/* Contact me box */
+   #sun {
+            background-color:white;
+            float: right;
+          }
+          #me {
+                background-color:white;
+                float: left;
+              }
+ #abtme {
+                text-align: left;
+                font-size: 25px;
+                color: #4aaaa5;
+              }
+              /*social buttons*/
+
+body{
+    padding: 50px;
+}
+
+
+
+
+.icon-circle .fa{
+
+    font-size           : 12px;
+    color               : #e84700;
+    margin              : auto;
+    height              : 40px;
+    width               : 40px;
+    border-radius       : 25%;
+    border              :2px solid #e84700;
+    line-height         : 40px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 40px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+
+ .icon-circle .fa{
+    font-size           : 10px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 30px;
+    width               : 30px;
+    border-radius       : 40%;
+    border              :2px solid #e84700;
+    line-height         : 200px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+
+    margin-left         : 0px;
+    font-size           : 20px;
+}   
+}
+
+.ifacebook .fa{
+    color               :#3B5998;
+    border              :2px solid #3B5998;
+}
+
+.ifacebook .fa:hover{
+    
+    background-color        : #3B5998;    
+    color                   : #fff;
+    border                  : 1px solid #3B5998;
+
+}
+
+.itwittter .fa{
+    color               : #33ccff;
+    border              :2px solid #33ccff;
+}
+
+.itwittter .fa:hover{
+    
+    background-color        : #33ccff;    
+    color                   : #fff;
+    border                  : 1px solid #33ccff;
+
+}
+
+.igoogle .fa{
+    color               : #BD3518;
+    border              :2px solid #BD3518;
+}
+
+.igoogle .fa:hover{
+    
+    background-color        : #BD3518;    
+    color                   : #fff;
+    border                  : 1px solid #BD3518;
+
+}
+
+.iLinkedin .fa{
+    color               : #007bb7;
+    border              :2px solid #007bb7;
+}
+
+.iLinkedin .fa:hover{
+    
+    background-color        :#007bb7;    
+    color                   : #fff;
+    border                  : 1px solid #007bb7;
+
+}
+
+
+/*Connect Box*/
+
+ 
+     
+        
+          #aln {
+            text-align: center;
+            clear: right;
+            font-size: 25px;
+            color: #4aaaa5;
+          }
+
+
+/* <div id="tue" style="width: 1200px; height: 1000px"></div> */
+/*<p font-style: "txt">
+     box-shadow: 10px 10px 5px #888888;
+    border: 1px solid blue;
+   /* box-sizing: border-box; 
+  </p> 
+  */
+</style>
+
+</head>
+
+
+	
+   <!-- <header> -->
+     <!--
+      <h2>The Planet Earth</h2>
+       <p>Posted on Wednesday, 4 October 2017 by Jane Smith</p>
+     -->
+
+
+
+ 
+   
+
+
+        <nav id= "riht" >
+          <ul >
+            <li><a href="default.asp">About</a></li>
+            <li><a href="contact.asp">Portfolio</a></li>
+            <li><a href="about.asp">Contact</a></li>
+          </ul>
+        </nav>  
+
+        <table>
+         <th style="margin-bottom: 20em"> Daniel Tannehill</th>
+        </table>
+
+<br>
+	
+<hr style= "clear: both">
+
+<div style="background-color: #87a4af">
+{
+
+
+  <div  id="sun"  class="sat" style=" width: 500px; height: 280px; margin:2em;" >
+          <p id="aln" >Connect</p> <hr>
+          
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+
+
+<div class="container-absolute">
+   
+    <div class="row" align="center">
+      
+    <div class="sicon">
+
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="ifacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+        </div>
+      </div>
+     
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="itwittter" title="Twitter"><i class="fa fa-twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="  text-center">
+        <div class="icon-circle">
+          <a href="#" class="igoogle" title="Google+"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+      
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="iLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+ 
+
+<div id="me" style="width: 650px; height: 550px; margin:2em;">
+          <p id='abtme'><STRONG><header style= "font-size :25px; color:#4aaaa5;" >Contact Me</header></STRONG></p> 
+
+          <hr>
+
+
+<!-- <p class="y"> a text para here</p>
+<a href="http://aaaa"> link</a>
+<button> click me </button>
+<input type="text">
+<textarea>this is in textarea</textarea> -->
+
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+  <!--  <small><i></i>"Add alerts if form ok... success, else error."</i></small>
+  <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> "Success! Message sent." (If form ok!)</strong></div>   
+    <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong>"" Error! Please check the inputs. "(If form error!)</strong></div>
+  </div>
+  <form role="form" action="" method="post" >
+    <div class="col-lg-6">
+      <div class="well well-sm"><strong><i class="glyphicon glyphicon-ok form-control-feedback"></i> Required Field</strong></div> -->
+
+     
+
+
+
+      <div class="form-group">
+        <label for="InputName">Your Name</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="InputEmail">Your Email</label>
+        <div class="input-group">
+          <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="InputMessage">Message</label>
+        <div class="input-group"
+>
+          <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="InputReal">What is 4+3? (Simple Spam Checker)</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputReal" id="InputReal" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+    </div>
+  </form>
+
+  <br>
+ <!-- <hr class="featurette-divider hidden-lg; "> -->
+  <div class="col-lg-5 col-md-push-1">
+  
+
+
+
+
+<br>
+<hr style= "clear: both">
+
+  
+  <!-- <p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">The Pentagon<br>
+Washington, DC 20301</a><br>
+      Phone: XXX-XXX-XXXX<br>
+      Fax: XXX-XXX-YYYY</p> -->
+   
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+  
+<hr>
+<footer style="clear:both" align="center"> </footer>
+</div> }
+<footer style="clear:both" align="center">Copyright 2017 Tannehill</footer>
+
+</body>
+
+</html>
