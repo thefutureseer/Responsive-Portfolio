@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+	<html lang="en-us">
+
+ <meta charset="UTTF-8">
+
+<head>
+
+<style>
+/* "NavBAr" */
+        table {
+              border-collapse: collapse;
+              width: 30%;
+              height: 100px;
+          }
+
+          th, td {
+              text-align: center;
+              padding: 8px;
+
+          }
+
+          th {
+              background-color:#4aaaa5;
+              color: white;
+              font-size: 35px;
+          }
+
+        .riht {
+
+            float: right;
+            font-size: 25px;
+            
+          }
+
+         #sun {
+            background-color:white;
+            float: right;
+
+          }
+        /*  #footr {
+            align: center;
+          } */
+        
+          #aln {
+            text-align: top;
+            clear: right;
+            font-size: 25px;
+            color: #4aaaa5;
+          }
+        ul {
+              list-style-type: none;
+              margin: 30;
+              padding: 30;
+              overflow: hidden;
+              background-color:#e84700;
+          }
+
+          li {
+              float: left;
+          }
+
+          li a {
+              display: block;
+              color: #dddddd;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+          }
+
+          /* Change the link color to #111 (black) on hover */
+          li a:hover {
+              background-color: #111;
+              }
+             /*social buttons*/
+
+body {
+    padding: 50px;
+}
+
+
+
+
+.icon-circle .fa{
+
+    font-size           : 12px;
+    color               : #e84700;
+    margin              : auto;
+    height              : 40px;
+    width               : 40px;
+    border-radius       : 25%;
+    border              :2px solid #e84700;
+    line-height         : 40px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 40px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+
+ .icon-circle .fa{
+    font-size           : 10px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 30px;
+    width               : 30px;
+    border-radius       : 40%;
+    border              :2px solid #e84700;
+    line-height         : 200px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+
+    margin-left         : 0px;
+    font-size           : 20px;
+}   
+
+}
+
+.ifacebook .fa{
+    color               :#3B5998;
+    border              :2px solid #3B5998;
+}
+
+.ifacebook .fa:hover{
+    
+    background-color        : #3B5998;    
+    color                   : #fff;
+    border                  : 1px solid #3B5998;
+
+}
+
+.itwittter .fa{
+    color               : #33ccff;
+    border              :2px solid #33ccff;
+}
+
+.itwittter .fa:hover{
+    
+    background-color        : #33ccff;    
+    color                   : #fff;
+    border                  : 1px solid #33ccff;
+
+}
+
+.igoogle .fa{
+    color               : #BD3518;
+    border              :2px solid #BD3518;
+}
+
+.igoogle .fa:hover{
+    
+    background-color        : #BD3518;    
+    color                   : #fff;
+    border                  : 1px solid #BD3518;
+
+}
+
+.iLinkedin .fa{
+    color               : #007bb7;
+    border              :2px solid #007bb7;
+}
+
+.iLinkedin .fa:hover{
+    
+    background-color        :#007bb7;    
+    color                   : #fff;
+    border                  : 1px solid #007bb7;
+
+}
+
+/* PORTFOLIO BEGINS*/
+
+ #sun {
+            background-color:white;
+            float: right;
+          }
+        /*  #footr {
+            align: center;
+          } */
+        
+          #aln {
+            text-align: center;
+            clear: right;
+            font-size: 25px;
+            color: #4aaaa5;
+          }  
+</style>
+<body> 
+   <header>
+
+    <div style="background-color: #dddddd"> 
+    </div>
+
+        <nav class= "riht">
+          <ul >
+            <li><a href="default.asp">About</a></li>
+            <li><a href="contact.asp">Portfolio</a></li>
+            <li><a href="about.asp">Contact</a></li>
+          </ul>
+        </nav>  
+
+        <table>
+         <th> Daniel Tannehill</th>
+        </table>
+</header>
+
+<br>
+
+<hr>
+ 	
+<header style = "font-size :25px; color:#4aaaa5; ">My Portfolio</header>
+
+<table>
+
+
+</th>
+ </table>
+
+ <div  id="sun"  class="sat" style=" width: 500px; height: 280px; margin-bottom:10em;" >
+          <p id="aln" >Connect</p> <hr>
+          
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+
+
+<div class="container-absolute">
+   
+    <div class="row" align="center">
+      
+    <div class="sicon">
+
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="ifacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+        </div>
+      </div>
+     
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="itwittter" title="Twitter"><i class="fa fa-twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="  text-center">
+        <div class="icon-circle">
+          <a href="#" class="igoogle" title="Google+"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+      
+      <div class=" text-center">
+        <div class="icon-circle">
+          <a href="#" class="iLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        </div>
+
+
+
+              <img src="http://handsontek.net/demoimages/tiles/neews.png" class="img-responsive"/>
+            </div>
+            <div class="item">
+              <img src="http://handsontek.net/demoimages/tiles/neews2.png" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+         
+		</div>
+
+    <div class="panel">
+      <div class="panel-body" style="background-color: #4aaaa5; color: white; padding: 1em; margin-right:65.2% " class="txtclr">Sports/News app</div>
+    </div>
+  </div>
+
+              <img src="http://handsontek.net/demoimages/tiles/skype.png" />
+            </div>
+         
+          </div>
+        </div>
+         
+		</div>
+	</div>
+</div>
+   <div class="panel">
+      <div class="panel-body" style="background-color: #4aaaa5; color: white; padding: 1em; margin-right: 65.1% " class="txtclr">New Skype app features</div>
+    </div>
+  </div>
+
+          <!-- Wrapper for slides -->
+           <img src="http://handsontek.net/demoimages/tiles/gallery.png" class="img-responsive"/>
+            </div>
+            <div class="item">
+              <img src="http://handsontek.net/demoimages/tiles/gallery2.png" class="img-responsive"/>
+            </div>
+            <div class="item">
+              <img src="http://handsontek.net/demoimages/tiles/gallery3.png" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+         
+		</div>
+	</div>
+    <div class="panel">
+      <div class="panel-body" style="background-color: #4aaaa5; color: white; padding: 1em; margin-right: 30.6% " class="txtclr">Travelers App made for grooven</div>
+    </div>
+  </div>
+
+	       <img src="http://handsontek.net/demoimages/tiles/music.png" class="img-responsive"/>
+            </div>
+            <div class="item">
+               <img src="http://handsontek.net/demoimages/tiles/music2.png" class="img-responsive"/>
+            </div>
+            </div>
+         </div>
+         
+		</div>
+	</div>
+  <div class="panel">
+      <div class="panel-body" style="background-color: #4aaaa5; color: white; padding: 1em; margin-right:65.2% " class="txtclr">Music app made for artists</div>
+    </div>
+  </div>
+
+       <img src="http://handsontek.net/demoimages/tiles/calendar.png" class="img-responsive"/>
+            </div>
+            <div class="item">
+              <img src="http://handsontek.net/demoimages/tiles/calendar2.png" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+         
+		</div>
+	</div>
+  <div class="panel">
+      <div class="panel-body" style="background-color: #4aaaa5; color: white; padding: 1em; margin-right:65.2% " class="txtclr">Day planner app includes Biorythm!</div>
+    </div>
+  </div>
+
+
+
+            <footer >
+              <p align="center" style="background-color:grey; padding: 2em">Copyrights 2017 Tannehill</p>
+            </footer>
+        
+          </div>
+        </div>
+         
+		</div>
+	</div>
+  
+</div>
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+
+
+<!-- "NavBAr" -->
+
+
+
+</body>
+
+</html>
+
+
+
+
