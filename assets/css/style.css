@@ -78,9 +78,64 @@ html {
   margin-top: 20px;
   margin-right: 20px;
 }
-/* ----------------- */
+
+/* CONTACT FORM CSS  */
+.contact-form {  width: 100%;
+  /* Box-model */
+  padding: 45px 10px 25px 31px;
+  /* Positioning */
+  margin-top: 30px;
+  /* Visual */
+  background-color: #fff;
+}
+.contact-form-header,
+.port-header {
+  /* Positioning */
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  /* Typography */
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+#name_input,
+#mail_input,
+#msg {
+  width: 95%;
+  /* Box-model */
+  height: 30px;
+  /* Positioning */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#msg {
+  /* Box-model */
+  height: 200px;
+  /* Visual */
+  border-color: #bbc;
+}
+.label-name,
+.label-msg,
+.label-mail {
+  /* Typography */
+  font-size: 17px;
+  color: #bbc;
+}
+.contact-hr {
+  margin-bottom: 30px;
+}
+.submit-btn {
+  /* Box-model */
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  /* Typography */
+  color: #fff;
+  /* Visual */
+  background-color: #4aaaa5;
+  border: 0;
+}
 /* CONNECT W/ ME CSS */
-/* ----------------- */
 #connect-with-me-area {
   width: 100%;
   /* Box-model */
@@ -89,9 +144,10 @@ html {
   margin-top: 32px;
   /* Visual */
   background-color: #fff;
-}
+}  
 .connect-with-me-header {
   /* Positioning */
+  text-align: center;
   margin-bottom: 15px;
   font-family: Georgia, Times, "Times New Roman", serif;
   /* Typography */
@@ -99,17 +155,19 @@ html {
   font-weight: bold;
   color: #4aaaa5;
 }
+
 .connect-with-me-photo {
   width: 55px;
   /* Box-model */
   height: 55px;
-}
+} 
+
 #images {
   /* Box-model */
   padding-top: 15px;
   /* Typography */
   text-align: center;
-}
+}  
 /* -------END-------- */
 .footer {
   /* Positioning */
@@ -135,10 +193,7 @@ html {
   /* Visual */
   background-color: #4aaaa5;
 }
-
-/* ----------------- */
 /* PORTFOLIO PAGE CSS */
-/* ------------------ */
 #portfolio-area {
   /* Box-model */
   width: 85%;
@@ -160,7 +215,7 @@ html {
   /* Positioning */
   margin-bottom: 15px;
 }
-/* --------END--------- */ /* ----------------- */
+/* --------END--------- */ 
 /* MEDIA  QUERY  CSS */
 @media only screen and (max-width: 767px) {
   .navbar-header {
