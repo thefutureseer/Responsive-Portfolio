@@ -46,7 +46,7 @@
               <hr class="contact-hr"/>
               <div class="form-group">
                 <label class="label-name" for="name">Name</label>
-                <input type="text" id="name_input" name="user_name" />
+                <input type="text" id="name_input" placeholder = "PLEASE DONT USE THIS FORM FOR CONTACTING. This message goes away if you begin typing." name="user_name" />
               </div>
               <div class="form-group">
                 <label class="label-mail" for="mail">E-mail</label>

@@ -208,13 +208,31 @@ html {
   margin-bottom: 40px;
 }
 .port-imgs {
-  /* Box-model */
+  /* Box-model 
   width: 233px;
-  height: 166px;
+  height: 166px; */
   margin-right: 15px;
   /* Positioning */
   margin-bottom: 15px;
+  height:40%;
+  width:100%;
+  text-align:center;
+  font-style: bold;
+  padding-top:2px;
+  background-image:url(Lighthouse.jpg);
+  background-size:100% auto;
+    
 }
+/*
+.text{
+  text-align: center;
+  font-style: bold;
+}*/
+/*
+.App {
+  font-style: bold;
+  font-size: auto;
+}*/
 /* --------END--------- */ 
 /* MEDIA  QUERY  CSS */
 @media only screen and (max-width: 767px) {
