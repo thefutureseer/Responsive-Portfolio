@@ -42,6 +42,11 @@ html {
 .navbar-nav > li > a:hover {
   color: #4aaaa5;
 }
+/*
+.nav-mail{
+  margin-left: 70px;
+}
+*/
 /* --------NAV END---------- */
 .about-me-header {
   /* Positioning */
