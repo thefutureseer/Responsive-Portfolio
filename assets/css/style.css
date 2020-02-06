@@ -141,6 +141,9 @@ html {
   border: 0;
 }
 /* CONNECT W/ ME CSS */
+#device-email {
+  text-align: center;
+}
 #connect-with-me-area {
   width: 100%;
   /* Box-model */
@@ -228,16 +231,7 @@ html {
   background-size:100% auto;
     
 }
-/*
-.text{
-  text-align: center;
-  font-style: bold;
-}*/
-/*
-.App {
-  font-style: bold;
-  font-size: auto;
-}*/
+
 /* --------END--------- */ 
 /* MEDIA  QUERY  CSS */
 @media only screen and (max-width: 767px) {
