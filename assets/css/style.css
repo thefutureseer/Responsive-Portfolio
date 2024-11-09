@@ -4,7 +4,7 @@ body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  /* background-image: url("../imgs/ignasi_pattern_s.png"); */
 }
 html {
   /* Positioning */
@@ -13,9 +13,11 @@ html {
   min-height: 100%;
 }
 /* ---------NAV START---------- */
+
 .navbar-custom {
   background-color: #fff;
 }
+
 #logo {
   /* Box-model */
   height: 60px;
@@ -47,6 +49,33 @@ html {
   margin-left: 70px;
 }
 */
+/* Style the dropdown button */
+.dropdown-toggle {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style dropdown menu items */
+.dropdown-menu > li > a {
+  padding: 10px 20px;
+  color: #333;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #e9ecef;
+  color: #007bff;
+}
 /* --------NAV END---------- */
 .about-me-header {
   /* Positioning */
