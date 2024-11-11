@@ -51,8 +51,8 @@ html {
 */
 /* Style the dropdown button */
 .dropdown-toggle {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0072b1;
+  color: #f8f9fa !important;
   border: none;
   padding: 10px;
   border-radius: 5px;
@@ -108,7 +108,7 @@ html {
   float: left;
   /* Box-model */
   width: 200px;
-  height: 200px;
+  height: 167px;
   margin-top: 20px;
   margin-right: 20px;
 }

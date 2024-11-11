@@ -1,0 +1,59 @@
+/* Custom Font and Background */
+body {
+  font-family: 'Orbitron', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Space-themed Background */
+.space-bg {
+  background-size: cover;
+}
+
+/* Dark Mode and Light Mode Styling */
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #00ba09;
+}
+
+.cap {
+  color: rgb(77, 77, 77);
+}
+
+#countdown {
+  color: #00afbe;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+/* Glowing Text Effect */
+.glow-text {
+  font-size: 3rem;
+  color: #b3ff00;
+  text-shadow: 0 0 8px #00eaff, 0 0 16px #00eaff, 0 0 24px #00eaff;
+}
+
+/* Rocket Animation */
+.rocket {
+  width: 150px;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Countdown Timer Styling */
+#countdown {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #1a73e8;
+  border-color: #1a73e8;
+}
