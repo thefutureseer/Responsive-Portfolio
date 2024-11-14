@@ -1,3 +1,8 @@
+/* variables */
+:root {
+  --oldgold: #F47F24;
+}
+
 body {
   /* Positioning */
   margin-bottom: 150px;
@@ -31,7 +36,7 @@ html {
   font-weight: bold;
   color: #fff;
   /* Visual */
-  background: #4aaaa5;
+  background: var(--oldgold);
 }
 .navbar-right-custom {
   /* Box-model */
@@ -42,13 +47,9 @@ html {
   font-weight: lighter;
 }
 .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: var(--oldgold);
 }
-/*
-.nav-mail{
-  margin-left: 70px;
-}
-*/
+
 /* Style the dropdown button */
 .dropdown-toggle {
   background-color: #0072b1;
@@ -60,7 +61,7 @@ html {
 
 /* Style the dropdown menu */
 .dropdown-menu {
-  background-color: #f8f9fa;
+  background-color: #fafaf8;
   border-radius: 5px;
   margin-top: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -72,10 +73,6 @@ html {
   color: #333;
 }
 
-.dropdown-menu > li > a:hover {
-  background-color: #e9ecef;
-  color: #007bff;
-}
 /* --------NAV END---------- */
 .about-me-header {
   /* Positioning */
@@ -84,7 +81,7 @@ html {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: var(--oldgold);
 }
 .about-me-content {
   /* Box-model */
@@ -106,11 +103,19 @@ html {
 #dan-image {
   /* Positioning */
   float: left;
+  
   /* Box-model */
-  width: 200px;
-  height: 167px;
+  width: 211px;
+  height: 176px;
   margin-top: 20px;
   margin-right: 20px;
+  
+  /* Add borders without affecting the image's size */
+  border-top: 17px solid black;
+  border-bottom: 17px solid black;
+  
+  /* Ensure borders are included in the width and height */
+  box-sizing: border-box;
 }
 
 /* CONTACT FORM CSS  */
@@ -130,7 +135,7 @@ html {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: var(--oldgold);
 }
 #name_input,
 #mail_input,
@@ -166,7 +171,7 @@ html {
   /* Typography */
   color: #fff;
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: var(--oldgold);
   border: 0;
 }
 /* CONNECT W/ ME CSS */
@@ -190,7 +195,7 @@ html {
   /* Typography */
   font-size: 25px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: var(--oldgold);
 }
 
 .connect-with-me-photo {
@@ -223,12 +228,13 @@ html {
   /* Typography */
   color: #fff;
 }
+
 .two-toned-footer-color {
   /* Box-model */
   height: 6px;
   padding-top: 3px;
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: var(--oldgold);
 }
 /* PORTFOLIO PAGE CSS */
 #portfolio-area {
@@ -258,14 +264,13 @@ html {
   padding-top:2px;
   background-image:url(Lighthouse.jpg);
   background-size:100% auto;
-    
 }
 
 /* --------END--------- */ 
 /* MEDIA  QUERY  CSS */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: var(--oldgold);
   }
   #logo {
     width: 100%;
@@ -282,6 +287,6 @@ html {
     color: #fff;
     text-align: center;
     /* Visual */
-    background: #4aaaa5;
+    background: var(--oldgold);
   }
 }
