@@ -101,21 +101,21 @@ html {
   color: #bbc;
 }
 #dan-image {
-  /* Positioning */
   float: left;
-  
-  /* Box-model */
-  width: 211px;
-  height: 176px;
+  max-width: 100%;
+  height: auto;
   margin-top: 20px;
   margin-right: 20px;
-  
-  /* Add borders without affecting the image's size */
-  border-top: 17px solid black;
-  border-bottom: 17px solid black;
-  
-  /* Ensure borders are included in the width and height */
+  border-top: 42px solid black;
+  border-bottom: 42px solid black;
   box-sizing: border-box;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
 /* CONTACT FORM CSS  */

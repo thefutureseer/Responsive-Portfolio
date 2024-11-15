@@ -11,46 +11,10 @@
     <link rel="stylesheet" href="assets/css/style.css" media="screen">
   </head>
   <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Daniel Tannehill</a>
-            </div>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li><a href="contact.html">Contact</a></li>
-              <!-- Navbar button/drop down for: full stack , frontend , algorithms -->
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                  Portfolio <span class="caret"></span>
-                </a>
-                <!-- Dropdown Menu -->
-                <ul class="dropdown-menu">
-                  <li><a href="portfolio.html">Full stack portfolio</a></li>
-                  <li><a href="frontend.html">Front end portfolio</a></li>
-                  <li><a href="https://github.com/thefutureseer/algorithms">Algorithms portfolio</a></li>
-                  <li><a href="comingSoon.html">coming soon page!</a></li>
-                </ul>
-              </li>
-              <li><a href="index.html">About</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div>
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
+
+<!-- Placeholder for Navbar -->
+<div id="navbar-placeholder"></div>
+
     <!-- Start of content wrap -->
     <div class="wrap">
       <div class="container">
@@ -59,7 +23,9 @@
             <article class="about-me-content">
               <h1 class="about-me-header">About Me</h1>
               <hr class="about-me-hr"/>
-              <img src="assets/css/images/Dan_T2.png" alt="" id="dan-image"/>
+              <div class="image-wrapper">
+               <img src="assets/css/images/Dan_T2.png" alt="" id="dan-image"/>
+              </div>
               <p>Born to a nurse and a Vietnam vet, I’ve spent my life blending old-school wisdom with cutting-edge tech. A licensed security guard since 2000, I’m on a mission to make the world a better place with a mix of high-tech computer science and classic values. My journey started with a degree in radio broadcasting in 2006, followed by a second in comedy at the SF Comedy College. After a third degree in 2018 from UC Berkeley’s Full-Stack Web Development Bootcamp, I became a teacher—and now, I’m all in on web development.
 
                 I’m passionate about algorithms, HTML, CSS, JavaScript, React.js, TypeScript, and a whole toolkit of web technologies like Next.js, Node.js, Firebase, MySQL, and MongoDB. I deploy to GitHub, Vercel, Render, and Heroku, and I’m diving deep into AI.
@@ -102,6 +68,8 @@
     <!-- End of footer -->
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- nav bar js -->
+    <script src="assets/javascript/navBar.js"></script>
     <!-- Bootstrap CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
