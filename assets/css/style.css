@@ -1,6 +1,6 @@
 /* variables */
 :root {
-  --oldgold: #F47F24;
+  --oldgold: #ef9f62;
 }
 
 body {
@@ -54,14 +54,19 @@ html {
 .dropdown-toggle {
   background-color: #0072b1;
   color: #f8f9fa !important;
+  font-weight: 700;
   border: none;
   padding: 10px;
-  border-radius: 5px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #0073b189 !important;
+
 }
 
 /* Style the dropdown menu */
 .dropdown-menu {
-  background-color: #fafaf8;
+  background-color: var(--oldgold);
   border-radius: 5px;
   margin-top: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -70,7 +75,8 @@ html {
 /* Style dropdown menu items */
 .dropdown-menu > li > a {
   padding: 10px 20px;
-  color: #333;
+  color: #f8f9fa;
+  font-weight: bold;
 }
 
 /* --------NAV END---------- */
